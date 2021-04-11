@@ -196,7 +196,7 @@ class _CallPageState extends State<CallPage> {
           RawMaterialButton(
             onPressed: () => _onCallEnd(context),
             child: Icon(
-              Icons.call_end,
+              Icons.video_call_outlined,
               color: Colors.white,
               size: 35.0,
             ),
